@@ -33,8 +33,8 @@ if [ -z "$output_name" ]; then
   exit 1
 fi
 
-# Compile source file, place output in the temporary directory. "touch" to simulate a compilation
-touch "$temp_dir/$output_name"
+# Compile source file, place output in the temporary directory. "g++ -o" to compile the c++ file
+g++ -o "$temp_dir/$output_name" "$source_file"
 
 # Move the output file to the current directory
 mv "$temp_dir/$output_name" ./
