@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "d:/932003_Unix_Tanumihardja/lab1",
-      "program": "d:/932003_Unix_Tanumihardja/lab1/build/Debug/outDebug",
+      "cwd": "d:/932003_Unix_Tanumihardja/lab3",
+      "program": "d:/932003_Unix_Tanumihardja/lab3/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [

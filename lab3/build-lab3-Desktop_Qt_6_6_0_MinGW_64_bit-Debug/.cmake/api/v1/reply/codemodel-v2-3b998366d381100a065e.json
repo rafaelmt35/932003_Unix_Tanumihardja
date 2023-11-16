@@ -1,0 +1,79 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-cbac2a9341c95e3e3a0d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "lab3",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "lab3::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-lab3-Debug-181f88c997d025b6060b.json",
+					"name" : "lab3",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "lab3_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-lab3_autogen-Debug-f516ee3e6a86b6eb3103.json",
+					"name" : "lab3_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "lab3_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-lab3_autogen_timestamp_deps-Debug-e7199e1288be0177240e.json",
+					"name" : "lab3_autogen_timestamp_deps",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "D:/932003_Unix_Tanumihardja/lab3/build-lab3-Desktop_Qt_6_6_0_MinGW_64_bit-Debug",
+		"source" : "D:/932003_Unix_Tanumihardja/lab3/lab3"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 4
+	}
+}
