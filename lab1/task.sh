@@ -1,5 +1,15 @@
 #!/bin/sh
 
+cleanup() {
+  echo "Cleaning up..."
+  # Clean up the temporary directory
+  rm -rf "$temp_dir"
+  exit 1
+}
+
+# Register the cleanup function for signals
+trap cleanup EXIT INT TERM
+
 # providing source file
 if [ $# -ne 1 ]; then
   echo "Usage: $0 <source_file>"
