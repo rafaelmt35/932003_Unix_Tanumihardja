@@ -23,7 +23,7 @@ find_next_available_name() {
         fi
     done
 
-    # If all file names are occupied, you may want to handle this case
+    # If all file names are occupied
     echo "No available file names"
 }
 
@@ -44,6 +44,9 @@ while true; do
         fi
     ) 200>/data/synchronization_lock
 
+    sleep 1
+
+    # Add an additional sleep to delay before next step
     sleep 1
 
     (
